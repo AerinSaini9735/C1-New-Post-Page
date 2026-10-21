@@ -5,11 +5,11 @@ function Project() {
         <>
           <div className="project1">
             <img className="amazon-project" src={project1} alt="Amazon-Project"/>
-            <a href="https://uchihaitachi973.github.io/amazon-project-2/amazon.html" target="_blank" rel="noreferrer">My amazon project</a>
+            <a href="https://aerinsaini9735.github.io/amazon-project-2/amazon.html" target="_blank" rel="noreferrer">My amazon project</a>
           </div>
           <div className="project2">
             <img className="rock-paper-scissors-project" src={project2} alt="Rock-Paper-Scissors-Project" />
-            <a href="https://uchihaitachi973.github.io/Rock-Paper-Scissors-game/rock-paper-scissors.html" target="_blank" rel="noreferrer">My Rock Paper Scissors Game</a>
+            <a href="https://aerinsaini9735.github.io/Rock-Paper-Scissors-game/rock-paper-scissors.html" target="_blank" rel="noreferrer">My Rock Paper Scissors Game</a>
           </div>
         </>
     )

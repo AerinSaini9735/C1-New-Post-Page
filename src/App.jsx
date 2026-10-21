@@ -37,9 +37,15 @@ function App() {
                 <Project />
                 <Photos />
                 <Email />
-                <h2 style={{ textAlign: 'center' }}>Featured Articles</h2>
+                <div className="info">
+                  <span>--------------------------------</span>
+                  <span>Featured Articles</span>
+                </div>
                 <Article />
-                <h2 style={{ textAlign: 'center' }}>Featured Tutorials</h2>
+                <div className="info">
+                  <span>--------------------------------</span>
+                  <span className="info">Featured Tutorials</span>
+                </div>
                 <Tutorial />
                 <Footer />
 
