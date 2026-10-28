@@ -1,15 +1,15 @@
 import { Link } from "react-router-dom";
+import Header from './header.jsx'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser as faUserSolid, faArrowLeftLong} from '@fortawesome/free-solid-svg-icons';
+import { faUser as faUserSolid, faArrowLeftLong } from '@fortawesome/free-solid-svg-icons';
 import { faUser as faUserRegular } from '@fortawesome/free-regular-svg-icons';
-import { faKey } from '@fortawesome/free-solid-svg-icons';+0
+import { faKey } from '@fortawesome/free-solid-svg-icons'; +0
 
 function Login() {
     return (
         <div>
-            <div className="home">
-                <FontAwesomeIcon icon={faArrowLeftLong} className="left-arrow"/>
-               <Link className="homepage" to = "/"> Back to Homepage</Link>
+            <div>
+                <Header />
             </div>
             <form className="login">
                 <div className='user-block'>

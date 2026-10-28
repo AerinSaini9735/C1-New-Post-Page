@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Header from './header.jsx'
 import { createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
 import { auth, db } from "./firebase";
 import { Link, useNavigate } from "react-router-dom";
@@ -57,9 +58,8 @@ function SignUp() {
     }
     return (
         <div>
-            <div className="home">
-                <FontAwesomeIcon icon={faArrowLeftLong} className="left-arrow" />
-                <Link className="homepage" to="/"> Back to Homepage</Link>
+            <div>
+                <Header />
             </div>
             <form className="login" onSubmit={handleSubmit}>
                 <label className="sign-up-heading">

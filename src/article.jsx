@@ -28,7 +28,7 @@ function Article() {
                     <div className="article-info">
                         <img className="article-image" src={article3} alt="Article 3"/>
                         <h3>DEV@Deakin</h3>
-                        <h4><strong>Description:</strong>Deakin website</h4>
+                        <h4><strong>Description:</strong> Deakin website</h4>
                         <p>eg. React</p>
                         <p>4 &#x2605; Aerin Saini</p>
                     </div>
