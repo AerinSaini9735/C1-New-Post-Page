@@ -144,7 +144,7 @@ p {
     flex-direction: column;
     align-items: center;
     font-family: arial;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     font-size: 28px;
 }
 
@@ -359,7 +359,7 @@ p {
     width: 90%;
     align-items: flex-start;
     justify-content: space-around;
-    margin: auto;
+    margin: auto;                 
     margin-bottom: 10px;
 }
 
@@ -373,8 +373,8 @@ p {
     cursor: pointer;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
     font-family: Arial, sans-serif;
-    transition: transform 0.2s ease,
-        box-shadow 0.2s ease;
+    box-shadow: 0.2s ease;
+    transition: transform 0.2s ease;
     text-align: left;
     gap: 15px;
 }
@@ -382,7 +382,6 @@ p {
 .article:hover,
 .tutorial:hover {
     transform: translateY(-5px);
-
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
 }
 
@@ -390,19 +389,14 @@ p {
 .tutorial-image {
     width: 100%;
     height: 120px;
-
     background-color: #f2f2f2;
-
     border: 1px solid #ccc;
     border-radius: 6px;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     color: #777;
     font-size: 14px;
-
     margin-bottom: 12px;
 }
 
@@ -411,12 +405,21 @@ p {
     font-size: 17px;
     margin: 5px 0 8px;
     font-weight: bold;
+    padding: 5px;
+}
+.article h4,
+.tutorial h4 {
+    font-size: 17px;
+    margin: 5px 0 8px;
+    font-weight: bold;
+    padding: 5px;
 }
 
 .article p,
 .tutorial p {
     font-size: 13px;
     margin: 4px 0;
+    padding: 5px;
 }
 
 .article-button,
@@ -443,7 +446,7 @@ p {
 .footer-column {
     display: flex;
     justify-content: center;
-    height: 340px;
+    height: 270px;
     gap: 140px;
     background-color: #20964cd4;
     color: white;
@@ -457,7 +460,8 @@ p {
     width: 130px;
     height: 130px;
     cursor: pointer;
-    gap: 8px;
+    gap: 15px;
+    
 }
 
 .footer-column2 {
@@ -467,7 +471,7 @@ p {
     width: 130px;
     height: 100px;
     cursor: pointer;
-    gap: 8px;
+    gap: 15px;
 }
 
 .footer-column3 {
@@ -476,9 +480,9 @@ p {
     font-size: 13px;
     width: 170px;
     height: 280px;
-    gap: 8px;
     cursor: pointer;
-
+    gap: 15px;
+    
 }
 
 .legal-block {
@@ -499,36 +503,45 @@ p {
     height: 45px;
 }
 
-.footer-language-block {
-    position: relative;
-    color: white;
-    width: 150px;
-    height: 25px;
-    font-size: 13px;
-    padding-top: 12px;
-    text-align: center;
-    border: 1px rgb(155, 151, 151) solid;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-.footer-scroll {
-    position: absolute;
-    right: 5px;
-    bottom: 10px;
-    color: white;
-}
-
 .legal-block2 {
     display: flex;
     flex-direction: column;
     font-size: 14px;
     align-items: center;
     width: 100%;
-    height: 90px;
+    height: 70px;
     color: white;
     background-color: #16273d;
     gap: 20px;
+    padding-top: 15px;
+}
+.legal-block h2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    color: white;
+    background-color: #16273d;
+    /* gap: 20px; */
+}
+
+.icons{
+    display: flex;
+    gap: 10px;
+    font-size: 30px;
+}
+.legal-block {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color: #16273d;
+    /* gap: 20px; */
 }
 
 .legal-links {
